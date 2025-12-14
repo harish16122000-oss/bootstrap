@@ -1,0 +1,148 @@
+ body{overflow-x: hidden;}
+ 
+ 
+ .nav{
+    background: black; 
+    color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    
+    
+    
+    }
+    .remem{
+   background-color: #111111;
+
+  
+ }
+ 
+    .cal{
+     font-weight: 900;
+     
+    }
+    .rope{
+    text-shadow: 2px 2px  red;
+    color: rgb(209, 210, 221);
+    font-family: serif;
+    font-size: 20px;
+    }
+  
+  .mal{
+     word-spacing: 20px;
+   
+     }
+     .coner{
+      animation: slideFromLeft 2s ease forwards ;
+       
+     }
+     .contemn{
+      animation: slideFromRight 2s ease forwards;
+       
+     }
+     .cont{
+     font-size: 80px;
+     font-weight: bolder;
+     color: rgb(214, 19, 19);
+     font-family: serif;
+     text-shadow: 5px 5px rgb(250, 240, 240);
+     }
+    .imege{
+      transition: width 3s, height 4s;
+      transition-delay: 1s;
+    }
+    .drive{
+      font-size: 50px;
+      font-weight: 900;
+      font-family: arial;
+      color: oklab(35.335% -0.00648 -0.21371);
+    }
+    .nov{
+     background-color: #FFFFFF;
+     border: 1px solid #E5E7EB;
+     color: #374151;
+
+       
+    }
+    .men{
+      color: #C00000;
+
+    }
+    .footer{
+      background-color: black;
+      color: white;
+    }
+    .ron{
+      word-spacing: 20px;
+    }
+    .social-icons a {
+  color: #fff;
+  font-size: 25px;
+  
+  margin: 0px 10px;
+  transition: 0.3s;
+}
+.social-icons{
+  word-spacing: 50px;
+}
+
+.social-icons a:hover {
+  color: #f39c12;  
+  transform: scale(1.2);
+}
+
+     .imege:hover{
+    width: 300px;
+    height: auto;
+  }
+  @keyframes slideFromLeft {
+    from{
+      transform: translatex(-100%);  
+     } to { transform: translatex(30%);
+
+    }
+  }
+
+    @keyframes slideFromRight {
+      from {
+        transform: translatex(100%);
+      }to {
+        transform: translatex(-50%);
+      }
+    
+
+  }
+  
+
+  @media (max-width: 480px){
+     
+   .mal{
+       word-spacing: 30px;
+        
+   }
+   .fle {
+    display: block;
+   }
+  .cont{
+    font-size: 20px;
+    animation: none;
+  }
+  .contemn{
+     
+    display: none;
+  }
+   .drive{
+      font-size: 15px;
+    }
+    .mal{
+      font-size: 13px;
+    }
+
+  }
+  @media (min-width:850px) {
+    .bike{
+      display:none;
+    }
+  }
+   
+  
