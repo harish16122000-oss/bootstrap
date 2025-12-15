@@ -11,6 +11,7 @@
     
     
     }
+    
     .remem{
    background-color: #111111;
 
@@ -41,7 +42,7 @@
        
      }
      .cont{
-     font-size: 80px;
+     font-size: 120px;
      font-weight: bolder;
      color: rgb(214, 19, 19);
      font-family: serif;
@@ -55,7 +56,7 @@
       font-size: 50px;
       font-weight: 900;
       font-family: arial;
-      color: oklab(35.335% -0.00648 -0.21371);
+      color: whitesmoke;
     }
     .nov{
      background-color: #FFFFFF;
@@ -63,6 +64,10 @@
      color: #374151;
 
        
+    }
+    .head{
+      font-weight: 800;
+      color: black;
     }
     .men{
       color: #C00000;
@@ -92,13 +97,13 @@
 }
 
      .imege:hover{
-    width: 300px;
+    width: 450px;
     height: auto;
   }
   @keyframes slideFromLeft {
     from{
       transform: translatex(-100%);  
-     } to { transform: translatex(30%);
+     } to { transform: translatex(10%);
 
     }
   }
@@ -107,7 +112,7 @@
       from {
         transform: translatex(100%);
       }to {
-        transform: translatex(-50%);
+        transform: translatex(-20%);
       }
     
 
@@ -137,12 +142,24 @@
     .mal{
       font-size: 13px;
     }
+    .cont{
+   text-shadow: 1px 1px  white;
+  }
 
   }
   @media (min-width:850px) {
     .bike{
       display:none;
+      
     }
+    .nem img{
+      height: 400px;
+    }
+    .ber{
+      height: auto;
+      width: 300px;
+    }
+  
   }
    
   
