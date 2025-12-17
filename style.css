@@ -1,9 +1,14 @@
 body{
   overflow-x: hidden;
 }  
-
+.nert{
+  display: flex;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
 .rat{
-  margin-left: 700px;
+  margin-left: 600px;
  }
  .mit{
   color: white !important;
@@ -14,6 +19,17 @@ body{
 
   
  }
+ .nop{
+  color: white;
+ }
+ .about{
+  color: #E5E7EB;
+ }
+ .her{
+  background-color: #313131 ;
+  border-color: #242020 !important;
+ }
+
  
     .cal{
      font-weight: 900;
@@ -100,7 +116,7 @@ body{
   @keyframes slideFromLeft {
     from{
       transform: translatex(-100%);  
-     } to { transform: translatex(10%);
+     } to { transform: translatex(5%);
 
     }
   }
@@ -109,7 +125,7 @@ body{
       from {
         transform: translatex(100%);
       }to {
-        transform: translatex(-20%);
+        transform: translatex(-15%);
       }
     
 
@@ -161,6 +177,9 @@ body{
     .ber{
       height: auto;
       width: 300px;
+    }
+    .nov{
+       line-height: 30px;
     }
   
   }
