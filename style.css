@@ -1,16 +1,13 @@
- body{overflow-x: hidden;}
- 
- 
- .nav{
-    background: black; 
-    color: white;
-    position: sticky;
-    top: 0px;
-    z-index: 1;
-    
-    
-    
-    }
+body{
+  overflow-x: hidden;
+}  
+
+.rat{
+  margin-left: 700px;
+ }
+ .mit{
+  color: white !important;
+ }
     
     .remem{
    background-color: #111111;
@@ -125,6 +122,12 @@
        word-spacing: 30px;
         
    }
+    
+   .rope{display: none;}
+   .ben img{
+    display: none;
+   }
+    
    .fle {
     display: block;
    }
@@ -147,7 +150,7 @@
   }
 
   }
-  @media (min-width:850px) {
+  @media (min-width:650px) {
     .bike{
       display:none;
       
@@ -161,5 +164,9 @@
     }
   
   }
-   
+  @media(max-width:1000px){
+    .rat{
+      margin-left: 0px;
+    }
+     }
   
