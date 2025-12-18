@@ -13,6 +13,9 @@ body{
  .mit{
   color: white !important;
  }
+ .features{
+  font-weight: 900;
+ }
     
     .remem{
    background-color: #111111;
@@ -29,7 +32,11 @@ body{
   background-color: #313131 ;
   border-color: #242020 !important;
  }
-
+.yer{
+ border-radius: 10px;
+ background-color: rgb(42, 140, 185);
+ color: white;
+}
  
     .cal{
      font-weight: 900;
@@ -86,13 +93,18 @@ body{
       color: #C00000;
 
     }
+    .klo{
+      font-weight: 900;
+    }
     .footer{
       background-color: black;
       color: white;
     }
-    .ron{
-      word-spacing: 20px;
-    }
+   
+  .tre{
+    height: 40px;
+    width: 600px;
+  }
     .social-icons a {
   color: #fff;
   font-size: 25px;
@@ -164,6 +176,13 @@ body{
     .cont{
    text-shadow: 1px 1px  white;
   }
+  .npe{
+    width: 300px;
+    height: 100px;
+  }
+   .tre{
+      width:300px ;
+    }
 
   }
   @media (min-width:650px) {
@@ -178,6 +197,7 @@ body{
       height: auto;
       width: 300px;
     }
+   
     .nov{
        line-height: 30px;
     }
