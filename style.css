@@ -113,7 +113,8 @@ body{
   transition: 0.3s;
 }
 .social-icons{
-  word-spacing: 50px;
+  word-spacing: 30px;
+  
 }
 
 .social-icons a:hover {
@@ -183,6 +184,23 @@ body{
    .tre{
       width:300px ;
     }
+  .coler{
+   
+     margin-top: 10px;
+     font-size: 13px;
+     margin-left: 10px;
+     
+  }
+.colern{
+   display: flex;
+}
+  .ment{
+    font-size: 11px;
+    margin-top: 5px;
+  }
+  .social-icons{
+    word-spacing: 20px;
+  }
 
   }
   @media (min-width:650px) {
