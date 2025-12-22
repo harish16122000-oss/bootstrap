@@ -105,6 +105,7 @@ body{
     height: 40px;
     width: 600px;
   }
+   
     .social-icons a {
   color: #fff;
   font-size: 25px;
@@ -120,6 +121,9 @@ body{
 .social-icons a:hover {
   color: #f39c12;  
   transform: scale(1.2);
+}
+.mit:active{
+  color: gold !important;
 }
 
      .imege:hover{
@@ -215,6 +219,7 @@ body{
       height: auto;
       width: 300px;
     }
+     
    
     .nov{
        line-height: 30px;
